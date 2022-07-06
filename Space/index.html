@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routes Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <body class="home">    
+        <header class="primary-header flex">
+          <nav>
+              <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+                  <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true"></span>Home</a>
+                  <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span aria-hidden="true"></span>Destination</a>
+              </ul>
+          </nav>
+        </header>
+        
+        <main id="main" class="grid-container grid-container--home">
+          <div>
+            <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">For space travelling options, please make necessary selection from the list
+            </h1>
+
+</head>
+<body>
+    <div class="container">
+        <div class="card mt-3">
+            <div class="filters card-body">
+                <form action="#" id="filterForm">
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Select traveling from" id="travellingFrom">
+                            <option selected disabled>Origin</option>
+                            <option value="Earth">Earth</option>
+                            <option value="Jupiter">Jupiter</option>
+                            <option value="Mars">Mars</option>
+                            <option value="Mercury">Mercury</option>
+                            <option value="Neptune">Neptune</option>
+                            <option value="Saturn">Saturn</option>
+                            <option value="Uranus">Uranus</option>
+                            <option value="Venus">Venus</option>
+                        </select>
+                    </div>
+    
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Select traveling from" id="travellingTo">
+                            <option selected disabled>Destination</option>
+                            <option value="Earth">Earth</option>
+                            <option value="Jupiter">Jupiter</option>
+                            <option value="Mars">Mars</option>
+                            <option value="Mercury">Mercury</option>
+                            <option value="Neptune">Neptune</option>
+                            <option value="Saturn">Saturn</option>
+                            <option value="Uranus">Uranus</option>
+                            <option value="Venus">Venus</option>
+                        </select>
+                    </div>
+    
+                    <div class="mb-3">
+                        <label for="dateStart" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="dateStart">
+                    </div>
+    
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Select Company" id="companySelect">
+                            <option selected disabled>Select Company</option>
+                            <option value="any">Any</option>
+                            <option value="Space Piper">Space Piper</option>
+                            <option value="Spacelux">Spacelux</option>
+                            <option value="Space Odyssey">Space Odyssey</option>
+                            <option value="Explore Dynamite">Explore Dynamite</option>
+                            <option value="Explore Origin">Explore Origin</option>
+                            <option value="Travel Nova">Travel Nova</option>
+                            <option value="SpaceX">SpaceX</option>
+                            <option value="Space Voyager">Space Voyager</option>
+                            <option value="Spacegenix">Spacegenix</option>
+                            <option value="Galaxy Express">Galaxy Express</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="card mt-5">
+            <table class="table routeTable">
+                <thead>
+                  <tr>
+                    <th scope="col">Route</th>
+                    <th scope="col">Total Distance</th>
+                    <th scope="col">Flights</th>
+                    <th scope="col">Total Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+              </table>
+        </div>
+    </div>
+</head>
+
+    <script src="script.js"></script>
+</body>
+</html>
