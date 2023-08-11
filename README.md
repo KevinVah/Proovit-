@@ -5,5 +5,5 @@
 
 3. You can also filter the list by clicking on "Route" "Flight" or "Total Price". 
 
-4. Destination tab does not work. At first had an idea that I would do a seperate page for travelling but changed my mind. So left Destination tab there because 
+4. Destination tab does not work. At first had an idea that I would do a seperate page for travelling but changed my mind.
 
